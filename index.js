@@ -127,6 +127,6 @@ module.exports = exports = gm;
 module.exports.utils = require('./lib/utils');
 module.exports.compare = require('./lib/compare')();
 module.exports.version = JSON.parse(
-  require('fs').readFileSync(__dirname + '/package.json', 'utf8')
+  require('fs').readFileSync('./package.json', 'utf8')
 ).version;
 
